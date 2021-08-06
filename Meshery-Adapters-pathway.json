@@ -10,6 +10,11 @@
         "description": "Learn how to run Meshery, install Istio and deploy a sample app"
       },
       {
+        "course_id": "istio-test",
+        "title": "Testing Meshery and Istio",
+        "description": "Learn how to run Meshery, install Istio and deploy a sample app"
+      },
+      {
         "course_id": "linkerd-meshery-adapter",
         "title": "Working with Meshery and Linkerd",
         "description": "Learn how to run Meshery, install Linkerd and deploy a sample app"
