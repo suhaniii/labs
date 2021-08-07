@@ -8,9 +8,7 @@
       {
         
         "title": "Let's get meshing!",
-        "text": "step1.md",
-        "courseData": "step1-background.sh",
-        "code": "step1-foreground.sh"
+        "text": "step1.md"
       },
       {
         "title": "Install Istio",
@@ -40,7 +38,6 @@
     "assets": {
       "host01": [
           {"file": "auth.json", "target": "/root", "chmod": "+x"},
-          {"file": "shell.sh", "target": "/root", "chmod": "+x"},
           {"file": "ingress.sh", "target": "/root", "chmod": "+x"}
       ],
       "client01": [
@@ -58,6 +55,6 @@
   }, 
 
   "backend": {
-    "imageid": "minikube-running"
+    "imageid": "layer5io-layer5"
   }
 }
