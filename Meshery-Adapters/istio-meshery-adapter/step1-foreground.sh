@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set +x
+
 echo "Waiting for the environment to be set up"
 
 sleep 8s
