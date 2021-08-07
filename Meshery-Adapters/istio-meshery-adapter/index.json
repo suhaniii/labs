@@ -4,6 +4,16 @@
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
+    "assets": {
+      "host01": [
+          {"file": "auth.json", "target": "/root", "chmod": "+x"},
+          {"file": "shell.sh", "target": "/root", "chmod": "+x"},
+          {"file": "ingress.sh", "target": "/root", "chmod": "+x"}
+      ],
+      "client01": [
+        {"file": "ingress.sh", "target": "/root", "chmod": "+x"}
+      ]
+  },
     "steps": [
       {
         
@@ -35,18 +45,7 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-
-    "assets": {
-      "host01": [
-          {"file": "auth.json", "target": "/root", "chmod": "+x"},
-          {"file": "shell.sh", "target": "/root", "chmod": "+x"},
-          {"file": "ingress.sh", "target": "/root", "chmod": "+x"}
-      ],
-      "client01": [
-        {"file": "ingress.sh", "target": "/root", "chmod": "+x"}
-      ]
-  }
+    }
   },
   "environment": {
     "uieditorpath": "/root/example",
