@@ -8,7 +8,9 @@
       {
         
         "title": "Let's get meshing!",
-        "text": "step1.md"
+        "text": "step1.md",
+        "background": "step1-background.sh",
+        "foreground": "step1-foreground.sh"
       },
       {
         "title": "Install Istio",
