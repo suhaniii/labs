@@ -53,11 +53,11 @@
     "hideHiddenFiles": true,
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
     "showdashboard": true,
-    "dashboards": [{"name": "Meshery Server", "port": 9081}],
     "uilayout": "terminal-iframe"
   }, 
 
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.18"
+    "imageid": "kubernetes-cluster-running:1.18",
+    "port": 9081
   }
 }
