@@ -1,6 +1,6 @@
-This session will auto-install **`minikube`** and set up other environment variables, necessary to run Meshery for you. This may take up to 2 minutes. (T7)
+This session will auto-install **`minikube`** and set up other environment variables, necessary to run Meshery for you. This may take up to 2 minutes. 
 
-After the environment has been setup, you may check up on your cluster nodes by running:
+After the environment has been setup, you may check up on your cluster nodes by running(1):
 `kubectl get nodes`{{execute}}
 
 ## Set up Meshery

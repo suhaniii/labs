@@ -1,3 +1,3 @@
 #!/bin/bash
 
-minikube start
+launch.sh
