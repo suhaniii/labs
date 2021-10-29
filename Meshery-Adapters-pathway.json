@@ -10,11 +10,6 @@
         "description": "Learn how to run Meshery, install Istio and deploy a sample app"
       },
       {
-        "course_id": "istio-test",
-        "title": "Testing Meshery and Istio",
-        "description": "Learn how to run Meshery, install Istio and deploy a sample app"
-      },
-      {
         "course_id": "linkerd-meshery-adapter",
         "title": "Working with Meshery and Linkerd",
         "description": "Learn how to run Meshery, install Linkerd and deploy a sample app"
@@ -33,6 +28,16 @@
         "course_id": "nsm-meshery-adapter",
         "title": "Working with Meshery and NSM",
         "description": "Learn how to run Meshery, install NSM and deploy a sample app"
+      },
+      {
+        "course_id": "traefik-meshery-adapter",
+        "title": "Working with Meshery and Traefik Mesh",
+        "description": "Learn how to run Meshery, install Traefik mesh and deploy a sample app"
+      },
+      {
+        "course_id": "osm-meshery-adapter",
+        "title": "Working with Meshery and Open Service Mesh",
+        "description": "Learn how to run Meshery, install Open Service Mesh and deploy a sample app"
       }
     ]
   }

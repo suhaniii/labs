@@ -8,11 +8,13 @@ Once ready, you can deploy Meshery.
 
 Meshery can be downloaded, installed, and launched with a single command:
 
-`curl -L https://git.io/meshery | ADAPTERS=kuma PLATFORM=docker bash -`{{execute}}
+`curl -L https://git.io/meshery | ADAPTERS=traefik PLATFORM=docker bash -`{{execute}}
 
-**Congratulations!** You have successfully installed Meshery and the Meshery Adapter for Linkerd.
+**Congratulations!** You have successfully installed Meshery and the Meshery Adapter for Traefik Mesh.
 
 Meshery is now available at host:`9081`.
+
+## Open Meshery UI
 
 Find the **Meshery UI** tab is configured to be listening at `http://localhost:9081`/
 
@@ -31,11 +33,7 @@ Meshery will auto-connect with your Kubernetes by loading the kubeconfig found i
 
 **Verify your connections**
 
-
 1. Between Meshery and Kubernetes.
+2. Between Meshery and the Meshery Adapter for your corresponding service mesh.
 
 ![Meshery connected with cluster](./assets/cluster-up.png)
-
-1. Between Meshery and the Meshery Adapter for your corresponding service mesh.
-
-![Meshery connected with adapter](./assets/adapter-up.png)

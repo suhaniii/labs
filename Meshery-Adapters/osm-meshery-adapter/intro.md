@@ -1,8 +1,8 @@
 [Meshery](https://meshery.io) is the service mesh manager, offering lifecycle, configuration, and performance management of service meshes and their workloads.
 
-Using the Meshery Adapter for Network Service Mesh, you will:
+Using the Meshery Adapter for Open Service Mesh, you will:
 
-- Deploy Network Service Mesh and a sample application.
+- Deploy Open Service Mesh and a sample application.
 
 - Verify your service mesh against operational best practices.
 

@@ -6,7 +6,7 @@ Once ready, you can deploy Meshery.
 
 ## Setup Meshery
 
-Meshery can be downloaded, installed, and launched with a single command:
+Meshery can be downloaded, installed, and launched with a single commandd:
 
 `curl -L https://git.io/meshery | ADAPTERS=istio PLATFORM=kubernetes bash -`{{execute}}
 
